@@ -40,7 +40,7 @@ public class AtmBanking extends TelegramLongPollingBot {
                     e.printStackTrace();
                 }
 
-
+            }
 
                 if (message.getText().equals(ATM)){
                     SendMessage sendMessageATM = new SendMessage();
@@ -69,7 +69,7 @@ public class AtmBanking extends TelegramLongPollingBot {
 
                 }
 
-            }
+           
         }
     }
 }
